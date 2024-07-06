@@ -218,7 +218,7 @@ Let's create a dedicated class:
 ```kotlin
 class SomeChildNode(
     nodeContext: NodeContext
-) : Node(
+) : LeafNode(
     nodeContext = nodeContext
 ) {
     @Composable
